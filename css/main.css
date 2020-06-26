@@ -130,6 +130,15 @@ a {
   background: rgb(29, 29, 31);
 }
 
+#scroll-section-2 .b {
+  top: 10%;
+  left: 40%;
+}
+#scroll-section-2 .c {
+  top: 15%;
+  left: 45%;
+}
+
 .mid-message {
   max-width: 1000px;
   margin: 0 auto;
