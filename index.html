@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="KR">
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,7 +12,12 @@
     <link rel="stylesheet" href="css/default.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
-  <body>
+  <body class="before-load">
+    <div class="loading">
+      <svg class="loading-circle">
+        <circle cx="50%" cy="50%" r="25"></circle>
+      </svg>
+    </div>
     <div class="container">
       <nav class="global-nav">
         <div class="global-nav-links">
@@ -125,6 +130,7 @@
         2020, 유도혁
       </footer>
     </div>
+
     <script src="js/main.js"></script>
   </body>
 </html>
